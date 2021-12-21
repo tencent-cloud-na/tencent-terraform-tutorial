@@ -4,4 +4,4 @@ It is straightforward to install Terraform. It mainly involves downlowding of Te
 
 You can run `terraform -version` or `terraform -help` on your command line console to verify your installation.
 
-[Main](../README.md) / [Prev](./01-introduction.md) / [Next](./03-build-infra.md) 
+[Main](../README.md) / [Prev](./01-introduction.md) / [Next](./03-build-infra.md)
