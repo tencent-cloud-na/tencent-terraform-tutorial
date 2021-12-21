@@ -173,7 +173,7 @@ If everything is planned as you expected, you can commit the resource into Tence
 terraform apply
 ```
 
-Now, you can check the created VPC in your Tencent Cloud account by logging into the Console. Also, please note that Terraform generates several files under your current directory. 
+Now, you can check the created VPC in your Tencent Cloud account by logging into the Console. Also, please note that Terraform generates several files under your current directory.
 
 
-[Main](../README.md) / [Prev](./02-installation.md) / [Next](./04-build-infra.md)
+[Main](../README.md) / [Prev](./02-installation.md) / [Next](./04-change-infra.md)
