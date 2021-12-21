@@ -60,7 +60,7 @@ Let's create several files.
 - variables.tf
 - outputs.tf
 
-Note: _terraform.tfvars_ is one way to pass input variables to Terraform configuration. We will discuss this more in the next section.
+Note: _terraform.tfvars_ is one way to pass input variables to Terraform configuration. We will discuss this more in the next session.
 
 ### version.tf
 
@@ -78,7 +78,7 @@ terraform {
 }
 ```
 
-In this snippet, we instruct Terraform to use version 0.14.06+. Also, it instructs Terraform to download Tencent Cloud Provider. We will use Tencent Cloud Provider version 1.56.15+.
+In this snippet, we instruct Terraform to use version 0.14.06+. Also, **it instructs Terraform to download Tencent Cloud Provider**. We will use Tencent Cloud Provider version 1.56.15+.
 
 ### provider.tf
 
@@ -116,7 +116,7 @@ The resource ["tencentcloud_vpc"](https://registry.terraform.io/providers/tencen
 
 ### variables.tf
 
-Remember that we have three variables in _provider.tf_ file. We will discuss the input variables in details in next session. For now, we just define the variables, so we can input values for these variables.
+Remember that we have three variables in _provider.tf_ file. We will discuss the input variables in details in next session. For now, we just define these variables, so we can input values for them.
 
 ```
 variable "secret_id" {
@@ -144,7 +144,7 @@ secret_key = "4tUr0uYw4ze4FFFFFFFFFFFFFFFFF"
 
 Please change the region to your target region, you can find Tencent Cloud region values [here](https://intl.cloud.tencent.com/document/product/213/6091). Also, please change the access key information to your own.
 
-You can find the source code discussed above under [src/simple](../src/simple) directory.
+You can find the whole set of source code discussed above under [src/simple](../src/simple) directory.
 
 ## Provision your first resource via terraform
 
@@ -173,7 +173,7 @@ If everything is planned as you expected, you can commit the resource into Tence
 terraform apply
 ```
 
-Now, you can check the created VPC in your Tencent Cloud account by logging into the Console.
+Now, you can check the created VPC in your Tencent Cloud account by logging into the Console. Also, please note that Terraform generates several files under your current directory. 
 
 
 [Main](../README.md) / [Prev](./02-installation.md) / [Next](./04-build-infra.md)

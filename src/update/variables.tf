@@ -14,15 +14,18 @@
  * limitations under the License.
  */
 
-# VPC creation
+variable "secret_id" {
+  type = string
+}
 
-resource "tencentcloud_vpc" "jliao-vpc" {
-  name         = "vpc-jliao-tf"
-  cidr_block   = "10.2.0.0/16"
-  dns_servers  = ["183.60.83.19", "183.60.82.98", "8.8.8.8"]
+variable "secret_key" {
+  type = string
+}
 
-  tags = {
-    "bu" = "nasa"
-    "created_by" = "jliao"
-  }
+variable "region" {
+  type = string
+}
+
+variable "availability_zone" {
+  type = string
 }
