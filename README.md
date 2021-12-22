@@ -12,6 +12,7 @@ This tutorial contains the following sections:
 - [Query Data with Output Variables](./docs/07-query-outputs.md)
 - [Build and Use Modules](./docs/08-build-with-modules.md)
 - [Work as a Team](./docs/09-share-state.md)
+- [Next steps](./docs/10-keep-learning.md)
 
 Now, let's get [started](./docs/01-introduction.md)
 
