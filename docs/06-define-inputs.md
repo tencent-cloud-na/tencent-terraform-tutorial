@@ -1,8 +1,8 @@
-# Define Input variables
+# Define Input Variables
 
 We now have enough Terraform knowledge to create useful configurations, but the examples so far have used hard-coded values except three variables used in `provider.tf`. Terraform configurations can include variables to make your configuration more dynamic and flexible.
 
-## Define input Variables
+## Define input variables
 
 Let's take a look at how variables work in Terraform configuration. If you open up `variables.tf`, you can see that we defined three variables.
 
@@ -42,7 +42,7 @@ to
   availability_zone          = var.availability_zone
 ```
 
-## Assign values to Variables
+## Assign values to variables
 
 Next, we can populate variables using values from a file. Terraform automatically loads files called `terraform.tfvars` or matching `*.auto.tfvars` in the working directory when running operations.
 
