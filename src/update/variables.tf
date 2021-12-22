@@ -25,7 +25,3 @@ variable "secret_key" {
 variable "region" {
   type = string
 }
-
-variable "availability_zone" {
-  type = string
-}

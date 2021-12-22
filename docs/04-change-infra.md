@@ -36,7 +36,7 @@ Let's add two new resources, one subnet and one CVM into the _main.tf_ file.
 # Subnet creation
 
 resource "tencentcloud_subnet" "subnet1" {
-  availability_zone = var.availability_zone
+  availability_zone = "na-siliconvalley-1"
   name              = "public-subnet"
   vpc_id            = tencentcloud_vpc.jliao-vpc.id
   cidr_block        = "10.2.0.0/24"
@@ -67,7 +67,7 @@ data "tencentcloud_instance_types" "cvm_instance_types" {
 // Create 1 CVM instances to host awesome_app
 resource "tencentcloud_instance" "tf_test_cvm" {
   instance_name              = "tf_test_cvm"
-  availability_zone          = var.availability_zone
+  availability_zone          = "na-siliconvalley-1"
   image_id                   = data.tencentcloud_images.cvm_image.images.0.image_id
   instance_type              = data.tencentcloud_instance_types.cvm_instance_types.instance_types.0.instance_type
   system_disk_type           = "CLOUD_PREMIUM"
