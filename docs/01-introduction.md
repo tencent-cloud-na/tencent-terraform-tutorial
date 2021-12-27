@@ -4,4 +4,4 @@ There are many quick introductions to Infrastructure as code(**IaC**) with Terra
 
 Also, I have prepared a slide deck to introduce IaC and Terraform [here](./Terraform-Quick-Start.pdf). There may be some terminologies or concepts which are too much for you at this point in this slide deck. But, don't worry! You should be able to understand them once you finish this whole tutorial.
 
-[Main](../) / [Next](./02-installation.md)
+[Main](../README.md) / [Next](./02-installation.md)
