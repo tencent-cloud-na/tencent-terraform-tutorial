@@ -40,4 +40,6 @@ The outputs will display when the command runs successfully. We can also query t
 
 You can use Terraform outputs to connect your Terraform projects with other parts of your infrastructure, or with other Terraform projects. To learn more, follow our in-depth tutorial, [Output Data from Terraform](https://learn.hashicorp.com/tutorials/terraform/outputs?in=terraform/configuration-language).
 
+The source code for this session and previous session is [here](../src/variable).
+
 [Main](../README.md) / [Prev](./06-define-inputs.md) / [Next](./08-build-with-modules.md)

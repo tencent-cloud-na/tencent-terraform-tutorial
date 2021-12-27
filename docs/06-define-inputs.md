@@ -62,4 +62,6 @@ Now run `terraform apply`. You can see that our subnet and CVM resources are cre
 
 Terraform supports many ways to use and set variables. To learn more, follow our in-depth tutorial, [Customize Terraform Configuration with Variables](https://learn.hashicorp.com/tutorials/terraform/variables?in=terraform/configuration-language).
 
+The source code for this session and next session is [here](../src/variable).
+
 [Main](../README.md) / [Prev](./05-destroy-infra.md) / [Next](./07-query-outputs.md)

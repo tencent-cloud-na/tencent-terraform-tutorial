@@ -1,4 +1,4 @@
-# Destroy infrastructure
+# Destroy Infrastructure
 
 We have created and modified infrastructure using Terraform. We will now learn how to destroy our Terraform-managed infrastructure.
 
