@@ -8,7 +8,7 @@ As you follow the tutorials in this collection, you will use Terraform to provis
 
 ## Prerequisites
 
-- A Google Cloud Platform account. If you do not have a GCP account, create one now. This tutorial can be completed using only the services included in the GCP free tier.
+- A Tencent Cloud Platform account. If you do not have a Tencent Cloud account, create one now. 
 
 - Terraform 0.14.06+ installed locally. 1.0.0+ is preferred.
 
